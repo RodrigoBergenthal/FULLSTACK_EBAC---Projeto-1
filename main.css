@@ -18,7 +18,7 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color:#182c61 ;
+    background-color:#16c83a ;
     color: #ecf0f1;
 }
 
@@ -59,7 +59,7 @@ section .container {
 
 section {
     padding: 24px 0;
-    color:#182c61 ;
+    color:#2c2d30 ;
 }
 
 section h2 {
@@ -70,8 +70,10 @@ section p {
     margin-bottom: 8px;
 }
 
-.store-front {
-    margin-right: 32px;
+.store-front  {
+    max-width: 50%;
+    float: left;
+    margin-right: 20px;
 }
 
 .social-links img {
@@ -115,23 +117,24 @@ section h3 {
 }
 
 form button {
-    background-color:#182c61 ;
+    background-color:#16c83a ;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color:#5c7fdf ;
+    background-color:#055419 ;
 }
 
 input:focus,textarea:focus {
-    outline-color: #182c61;
+    outline-color: #16c83a ;
 
 }
 
 footer {
-    background-color: #182c61;
+    background-color: #165022 ;
     color: #ecf0f1;
     padding: 16px 0;
+    text-align: center;
 }
